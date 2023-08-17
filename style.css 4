@@ -1,0 +1,22 @@
+*,::before,::after{box-sizing:border-box;}
+header{position:fixed;width:100%;top:0;left:0;height:9.5%;background-color:#FFFFE0;}
+h1{font-size:20px;position:absolute;top:5px;left:40px;margin-top:-5px;}
+h2{font-size:17px;}
+h3{font-size:15px;}
+div.intro{text-align:center;padding-top:30px;margin-top:20px;}
+#email{display:block;margin:auto;margin-bottom:7px;margin-top:-7px;}
+#submit{background-color:yellow;width:20%;height:5%;font-weight:bold;text-align:center;}
+#nav-bar{position:absolute;right:10px;top:20px;justify-content:space-between;}
+#nav-bar a{margin:10px;color:black;padding:1px;}
+#features{padding-left:15px;padding-right:15px;
+margin-right:15px;margin-left:15px;margin-top:5px;margin-bottom:5px;padding-top:10px;padding-bottom:10px}
+#features h2{margin-bottom:-12px;}
+div iframe{display:block;margin-left:auto;margin-right:auto;margin-top:15px;margin-bottom:15px;max-width:60%;height:auto;}
+h3.a, h3.b, h3.c{background-color:lightgrey;margin-top:0;}
+#pricing{display:flex;justify-content:space-around;padding-top:20px;}
+#p1,#p2,#p3{border:1px solid black;width:140px;height:300px;;text-align:center;}
+footer{text-align:end;background-color:lightgrey;margin-left:4px;margin:2px;}
+button{background-color:yellow;width:60%;height:15%;margin:5px;}
+#p1 button,#p2 button{margin-top:15px;}
+body{background-color:#FFFFE0;}
+@media screen and (min-width:480px){#video{width:50%;height:auto;} body{background-color:#F5DEB3;} header{background-color:#F5DEB3}}
